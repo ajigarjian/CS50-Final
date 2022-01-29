@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Apology
+{% endblock %}
+
+{% block main %}
+    <!-- https://memegen.link/ -->
+    <img alt="{{ top }}" class="border img-fluid" src="http://memegen.link/custom/{{ top | urlencode }}/{{ bottom | urlencode }}.jpg?alt=https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/21364AFB122FD46C2D8F74FBE3B2F14AB3C3A0BF485A279EADFA4871E21EE7F4/scale?width=2880&aspectRatio=1.78&format=jpeg" title="{{ top }}">
+{% endblock %}
